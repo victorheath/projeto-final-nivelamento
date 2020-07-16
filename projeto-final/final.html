@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Avaliaçãofinal</title>
+</head>
+<body>
+    <script>
+        var numero1, numero2, numero3, numero4, numero5;
+        numero1 = parseInt(prompt('Digite o primeiro número!'))
+        numero2 = parseInt(prompt('Digite o segundo numero!'))
+        numero3 = parseInt(prompt('Digite o terceiro número!'))
+        numero4 = parseInt(prompt('Digite o quarto número!'))
+        numero5 = parseInt(prompt('Digite o quinto número!'))
+
+        maiorNumero = Math.max(numero1, numero2, numero3, numero4, numero5)
+        menorNumero = Math.min(numero1, numero2, numero3, numero4, numero5)
+
+        document.write("O maior número é: " + maiorNumero + '<br>' + "O menor número é: " + menorNumero + '<br>');
+
+        if(numero1 % 2 ==0)(
+            document.write( "O número " + numero1 + " é par" + "<br>")
+        )
+        else{
+            document.write("O número " + numero1 + " é impar!" + "<br>")
+        }
+
+        if(numero2 % 2 ==0)(
+            document.write( "O número " + numero2 + " é par" + "<br>")
+        )
+        else{
+            document.write("O número " + numero2 + " é impar!" + "<br>")
+        }
+
+        if(numero3 % 2 ==0)(
+            document.write( "O número " + numero3 + " é par" + "<br>")
+        )
+        else{
+            document.write("O número " + numero3 + " é impar!" + "<br>")
+        }
+
+        if(numero4 % 2 ==0)(
+            document.write( "O número " + numero4 + " é par" + "<br>")
+        )
+        else{
+            document.write("O número " + numero4 + " é impar!" + "<br>")
+        }
+
+        if(numero5 % 2 ==0)(
+            document.write( "O número " + numero5 + " é par" + "<br>")
+        )
+        else{
+            document.write("O número " + numero5 + " é impar!" + "<br>")
+        }
+
+
+
+        if(numero1 == numero2 || numero1 == numero3 || numero1 == numero4 || numero1 == numero5 || numero2 == numero3 || numero2 == numero4 || numero2 == numero5 || numero3 == numero4 || numero3 == numero5 || numero4 == numero5) {
+
+        alert("Número repetido")
+        }
+
+    </script>
+</body>
+</html>
